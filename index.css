@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 60px;
+    padding: 90px;
+    
+}
+
+form{
+    padding: 50px;
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    border-bottom: 1px solid;
+}
+
+.completo{
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+input{
+    border-radius: 3px;
+    padding: 7px;
+    margin: 4px;
+    background-color: aliceblue;
+}
+
+button{
+    margin: 4px;
+    border-radius: 3px;
+    padding: 7px;
+}
+
+.cadastrar{
+    background-color: rgb(3, 226, 3);
+}
+
+.cadastrar:hover{
+    background-color: darkgreen;
+    color: aliceblue;
+    transition: 1000ms;
+}
+
+.limpar{
+    background-color: rgb(255, 91, 91);
+}
+
+.limpar:hover{
+    background-color: red;
+    color: aliceblue;
+    transition: 1s ;
+}
+
+ol:hover{
+    transition: 1s;
+}
